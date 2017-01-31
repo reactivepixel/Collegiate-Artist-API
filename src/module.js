@@ -1,15 +1,15 @@
 // Brandon
 exports.addToChest = function(items) {
-  var chestContents = [
-    "Gold",
-    "Bones",
-    "Coal",
-    "Rubbish",
-  ];
-
+  
   chestContents.push(items);
 }
 
+var chestContents = [
+  "Gold",
+  "Bones",
+  "Coal",
+  "Rubbish",
+];
 
 // TJ
 exports.chestLocation = function(x,y) {
