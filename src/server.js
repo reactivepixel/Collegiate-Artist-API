@@ -1,7 +1,7 @@
 var module = require('./module');
 
 // Simple calling of other module
-module.chestLocation(3,7);
+module.chestLocation(3,6);
 
 module.addToChest("something");
 

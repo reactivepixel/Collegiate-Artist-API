@@ -18,7 +18,7 @@ console.log("You have input the wrong coordinates.");
 
   } else{
 
-    console.log("Congratulations you have found the treasure.");
+    console.log("Congratulations you have found the treasure. The current contents of your chest are "+chestContents);
   }
   //console.log("X marks the spot");
 }
