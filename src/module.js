@@ -6,14 +6,6 @@ var chestContents = [
 ];
 
 
-
-// Brandon
-// exports.addToChest = function(items) {
-//
-// chestContents.push(items);
-// }
-
-
 // TJ
 exports.chestLocation = function(x,y,items) {
   chestContents.push(items);
@@ -24,5 +16,4 @@ console.log("You have input the wrong coordinates.");
 console.log("Congratulations you have found the treasure. The current contents of your chest are "+chestContents);
 
   }
-  //console.log("X marks the spot");
 }
