@@ -13,7 +13,7 @@ exports.addToChest = function(items) {
 
 // TJ
 exports.chestLocation = function(x,y) {
-  if(x != 3 && y != 6){
+  if(x != 3 || y != 6){
 console.log("You have input the wrong coordinates.");
 
   } else{
