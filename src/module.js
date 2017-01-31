@@ -1,6 +1,14 @@
 // Brandon
-exports.addToChest = function() {
-  console.log("Add to the contents of the Chest");
+exports.addToChest = function(items) {
+  //console.log("Add to the contents of the Chest");
+  var chestContents = [
+    "Gold",
+    "Bones",
+    "Coal",
+    "Rubbish",
+  ];
+
+  chestContents.push(items);
 }
 
 
